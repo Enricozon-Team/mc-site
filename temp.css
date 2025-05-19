@@ -1,0 +1,30 @@
+body{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center;
+}
+button{
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+    background-color: #0CA0F0;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 5px;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+button:hover {
+  background-color: #0F92D8;
+}
+.logo{
+    width: 200px;
+    display: flex;
+    margin-right: auto;
+    margin-left: auto;
+}
