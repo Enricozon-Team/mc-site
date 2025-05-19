@@ -1,0 +1,1171 @@
+<!DOCTYPE html>
+<html lang="it">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="icon" type="image/x-icon" href="./src/images/icon.png">
+
+    <title>Staff | SpermaCraft</title>
+
+    <!-- FONTS -->
+    <link rel="preconnect" href="https://fonts.gstatic.com/">
+
+    <link
+        href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,200;0,300;0,400;0,600;0,700;0,900;1,200;1,300;1,400;1,800;1,900&display=swap"
+        rel="stylesheet">
+
+    <!-- ICONS -->
+    <link href="https://cdn.materialdesignicons.com/4.7.95/css/materialdesignicons.min.css" rel="stylesheet">
+
+    <!-- STYLE -->
+    <link rel="stylesheet" href="./src/css/style.css">
+
+    <!-- FONTAWESOME -->
+    <script src="https://kit.fontawesome.com/4b2bca9e45.js" crossorigin="anonymous"></script>
+
+</head>
+
+<body>
+    <!-- LOADING -->
+    <div class="loading" id="loading">
+        <img src="./src/images/logo.png" alt="">
+    </div>
+
+    <!-- MENU -->
+    <div class="menu close" id="menu">
+        <div class="title">Menu</div>
+        <ul class="list">
+            <li>
+                <a href="">Home</a>
+            </li>
+            <li>
+                <a href="http://mc.anozon.it:8080/">Mappa</a>
+            </li>
+            <li>
+                <a href="https://ez.anozon.it/">Store</a>
+            </li>
+            <li>
+                <a href="https://discord.gg/gWDVDuJfmN">Discord</a>
+            </li>
+            <li>
+                <a href="https://mc.anozon.it/forum/staff">Staff</a>
+            </li>
+        </ul>
+    </div>
+
+    <!-- TOP -->
+    <div class="top">
+        <div class="inner">
+            <div class="logo-info">
+                <div class="info minecraft" onclick="copy('mc.anozon.it')">
+                    <div class="txt l">
+                        <small id="ip-text">Premi per Copiare L'IP</small>
+                        <div class="players" id="mc-users"> </div>
+                    </div>
+
+                    <div class="icon">
+                        <span class="mdi-25px mdi-minecraft"></span>
+                    </div>
+                </div>
+                <a href="index.html" class="logo">
+                    <img src="./src/images/logo.png" alt="LOGO">
+                </a>
+                <a href="https://discord.gg/gWDVDuJfmN" target="_blink">
+                    <div class="info discord">
+                        <div class="icon">
+                            <span class="mdi-25px mdi-discord"></span>
+                        </div>
+
+                        <div class="txt r">
+                            <small>Entra nel nostro discord</small>
+                            <div class="users" id="ds-users">Caricamento in corso...</div>
+                        </div>
+                    </div>
+                </a>
+            </div>
+
+            <div class="menu-btn" id="menu-btn">
+                <i class="fa-solid fa-bars"></i>
+            </div>
+
+            <div class="nav">
+                <a class="page" href="index.html">Home</a>
+                <a class="page" href="http://mc.anozon.it:8080/">Mappa</a>
+                <a class="page store" href="https://ez.anozon.it">Store</a>
+                <a class="page" href="https://discord.gg/gWDVDuJfmN">Discord</a>
+                <a class="page" href="https://mc.anozon.it/forum/staff"> Staff</a>
+            </div>
+        </div>
+
+        <!-- PARTICLES -->
+        <div id="tsparticles">
+            <canvas class="tsparticles-canvas-el" width="1063" height="385" style="width: 100%; 
+                    height: 100%; 
+                    position: fixed; 
+                    z-index: 0; 
+                    top: 0px; 
+                    left: 0px; 
+                    background-color: rgb(0, 0, 0); 
+                    pointer-events: none;">
+            </canvas>
+        </div>
+    </div>
+
+
+        <div class="p-body">
+            <div class="p-body-inner">
+                <div class="content">
+                    <div class="content-wrapper">
+                        <div class="p-body-header h-b">
+                            <div class="p-title ">
+                                <h1 class="p-title-value">
+                                    Staff
+                                </h1>
+                            </div>
+                            <div class="p-description">
+                            </div>
+                        </div>
+                        <div class="p-body-main  ">
+                            <div class="p-body-content">
+                                <div class="p-body-pageContent">
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Owner</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/federicoschi.3/" class="avatar avatar--s" data-user-id="3" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/3.jpg?1617477957" srcset="/forum/data/avatars/m/0/3.jpg?1617477957 2x" alt="FEDERICOSCHI" class="avatar-u3-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/federicoschi.3/" class="username " dir="auto" data-user-id="3" data-xf-init="member-tooltip"><span class="username--style3 username--staff username--moderator username--admin" itemprop="name">FEDERICOSCHI</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Owner</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/feryzz.4/" class="avatar avatar--s" data-user-id="4" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/4.jpg?1607809370" srcset="/forum/data/avatars/m/0/4.jpg?1607809370 2x" alt="Feryzz" class="avatar-u4-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/feryzz.4/" class="username " dir="auto" data-user-id="4" data-xf-init="member-tooltip"><span class="username--style3 username--staff username--moderator username--admin" itemprop="name">Feryzz</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Owner</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/cinquanta.7/" class="avatar avatar--s" data-user-id="7" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/7.jpg?1617994931" srcset="/forum/data/avatars/m/0/7.jpg?1617994931 2x" alt="Cinquanta" class="avatar-u7-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/cinquanta.7/" class="username " dir="auto" data-user-id="7" data-xf-init="member-tooltip"><span class="username--style3 username--staff username--moderator username--admin" itemprop="name">Cinquanta</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Owner</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/ytnoos.336/" class="avatar avatar--s" data-user-id="336" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/336.jpg?1638845748" srcset="/forum/data/avatars/m/0/336.jpg?1638845748 2x" alt="Ytnoos" class="avatar-u336-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/ytnoos.336/" class="username " dir="auto" data-user-id="336" data-xf-init="member-tooltip"><span class="username--style3 username--staff username--admin" itemprop="name">Ytnoos</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Owner</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/fra130701.15730/" class="avatar avatar--s" data-user-id="15730" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/15/15730.jpg?1685795933" srcset="/forum/data/avatars/m/15/15730.jpg?1685795933 2x" alt="fra130701" class="avatar-u15730-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/fra130701.15730/" class="username " dir="auto" data-user-id="15730" data-xf-init="member-tooltip"><span class="username--style3 username--staff username--admin" itemprop="name">fra130701</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Owner</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Senior Admin</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/nostalgiah.13/" class="avatar avatar--s" data-user-id="13" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/13.jpg?1737570611" srcset="/forum/data/avatars/m/0/13.jpg?1737570611 2x" alt="Nostalgiah" class="avatar-u13-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/nostalgiah.13/" class="username " dir="auto" data-user-id="13" data-xf-init="member-tooltip"><span class="username--style9 username--staff" itemprop="name">Nostalgiah</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/notaffected.1618/" class="avatar avatar--s" data-user-id="1618" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/1/1618.jpg?1635251978" srcset="/forum/data/avatars/m/1/1618.jpg?1635251978 2x" alt="NotAffected" class="avatar-u1618-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/notaffected.1618/" class="username " dir="auto" data-user-id="1618" data-xf-init="member-tooltip"><span class="username--style9 username--staff username--moderator username--admin" itemprop="name">NotAffected</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/telfrancesco.2868/" class="avatar avatar--s" data-user-id="2868" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/2/2868.jpg?1622395608" srcset="/forum/data/avatars/m/2/2868.jpg?1622395608 2x" alt="telfrancesco" class="avatar-u2868-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/telfrancesco.2868/" class="username " dir="auto" data-user-id="2868" data-xf-init="member-tooltip"><span class="username--style9 username--staff" itemprop="name">telfrancesco</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/spegiulia.6579/" class="avatar avatar--s" data-user-id="6579" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/6/6579.jpg?1707745402" srcset="/forum/data/avatars/m/6/6579.jpg?1707745402 2x" alt="Spegiulia" class="avatar-u6579-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/spegiulia.6579/" class="username " dir="auto" data-user-id="6579" data-xf-init="member-tooltip"><span class="username--style9 username--staff" itemprop="name">Spegiulia</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Admin</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/narcisjsmo.1917/" class="avatar avatar--s" data-user-id="1917" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/1/1917.jpg?1684289425" srcset="/forum/data/avatars/m/1/1917.jpg?1684289425 2x" alt="Narcisjsmo" class="avatar-u1917-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/narcisjsmo.1917/" class="username " dir="auto" data-user-id="1917" data-xf-init="member-tooltip"><span class="username--style8 username--staff" itemprop="name">Narcisjsmo</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/cultvres.2183/" class="avatar avatar--s" data-user-id="2183" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/2/2183.jpg?1740232311" srcset="/forum/data/avatars/m/2/2183.jpg?1740232311 2x" alt="Cultvres" class="avatar-u2183-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/cultvres.2183/" class="username " dir="auto" data-user-id="2183" data-xf-init="member-tooltip"><span class="username--style8 username--staff" itemprop="name">Cultvres</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/manuel435.5778/" class="avatar avatar--s" data-user-id="5778" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/5/5778.jpg?1741815915" srcset="/forum/data/avatars/m/5/5778.jpg?1741815915 2x" alt="Manuel435" class="avatar-u5778-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/manuel435.5778/" class="username " dir="auto" data-user-id="5778" data-xf-init="member-tooltip"><span class="username--style8 username--staff" itemprop="name">Manuel435</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/not_sdg.10683/" class="avatar avatar--s" data-user-id="10683" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/10/10683.jpg?1651690180" srcset="/forum/data/avatars/m/10/10683.jpg?1651690180 2x" alt="NoT_Sdg" class="avatar-u10683-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/not_sdg.10683/" class="username " dir="auto" data-user-id="10683" data-xf-init="member-tooltip"><span class="username--style8 username--staff" itemprop="name">NoT_Sdg</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Admin</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Senior Mod</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/shawnfroste.532/" class="avatar avatar--s" data-user-id="532" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/532.jpg?1745409886" srcset="/forum/data/avatars/m/0/532.jpg?1745409886 2x" alt="ShawnFroste" class="avatar-u532-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/shawnfroste.532/" class="username " dir="auto" data-user-id="532" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">ShawnFroste</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/gioxox.2733/" class="avatar avatar--s" data-user-id="2733" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/2/2733.jpg?1740912865" srcset="/forum/data/avatars/m/2/2733.jpg?1740912865 2x" alt="Gioxox" class="avatar-u2733-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/gioxox.2733/" class="username " dir="auto" data-user-id="2733" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">Gioxox</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/paddoog.4120/" class="avatar avatar--s" data-user-id="4120" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/4/4120.jpg?1705262349" srcset="/forum/data/avatars/m/4/4120.jpg?1705262349 2x" alt="PaddoOG" class="avatar-u4120-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/paddoog.4120/" class="username " dir="auto" data-user-id="4120" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">PaddoOG</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/ohnekoh.13179/" class="avatar avatar--s" data-user-id="13179" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/13/13179.jpg?1725012569" srcset="/forum/data/avatars/m/13/13179.jpg?1725012569 2x" alt="ohNekoh" class="avatar-u13179-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/ohnekoh.13179/" class="username " dir="auto" data-user-id="13179" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">ohNekoh</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/immxtty.13594/" class="avatar avatar--s" data-user-id="13594" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/13/13594.jpg?1719319283" srcset="/forum/data/avatars/m/13/13594.jpg?1719319283 2x" alt="ImMxtty" class="avatar-u13594-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/immxtty.13594/" class="username " dir="auto" data-user-id="13594" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">ImMxtty</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/sciani.15742/" class="avatar avatar--s" data-user-id="15742" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/15/15742.jpg?1738895656" srcset="/forum/data/avatars/m/15/15742.jpg?1738895656 2x" alt="sciani" class="avatar-u15742-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/sciani.15742/" class="username " dir="auto" data-user-id="15742" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">sciani</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/itzsturbyy.17009/" class="avatar avatar--s" data-user-id="17009" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/17/17009.jpg?1736346433" srcset="/forum/data/avatars/m/17/17009.jpg?1736346433 2x" alt="ItzSturbyy" class="avatar-u17009-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/itzsturbyy.17009/" class="username " dir="auto" data-user-id="17009" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">ItzSturbyy</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/therealender230.18452/" class="avatar avatar--s" data-user-id="18452" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/18/18452.jpg?1741999877" srcset="/forum/data/avatars/m/18/18452.jpg?1741999877 2x" alt="TheRealEnder230" class="avatar-u18452-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/therealender230.18452/" class="username " dir="auto" data-user-id="18452" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">TheRealEnder230</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/thetecno2000.20464/" class="avatar avatar--s" data-user-id="20464" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/20/20464.jpg?1705841175" srcset="/forum/data/avatars/m/20/20464.jpg?1705841175 2x" alt="TheTecno2000" class="avatar-u20464-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/thetecno2000.20464/" class="username " dir="auto" data-user-id="20464" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">TheTecno2000</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/knowmatt.21501/" class="avatar avatar--s" data-user-id="21501" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/21/21501.jpg?1740527419" srcset="/forum/data/avatars/m/21/21501.jpg?1740527419 2x" alt="KnowMatt" class="avatar-u21501-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/knowmatt.21501/" class="username " dir="auto" data-user-id="21501" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">KnowMatt</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/razor2t.21654/" class="avatar avatar--s" data-user-id="21654" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/21/21654.jpg?1741209268" srcset="/forum/data/avatars/m/21/21654.jpg?1741209268 2x" alt="Razor2T" class="avatar-u21654-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/razor2t.21654/" class="username " dir="auto" data-user-id="21654" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">Razor2T</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/nyxnico.21826/" class="avatar avatar--s" data-user-id="21826" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/21/21826.jpg?1738792434" srcset="/forum/data/avatars/m/21/21826.jpg?1738792434 2x" alt="nyxnico" class="avatar-u21826-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/nyxnico.21826/" class="username " dir="auto" data-user-id="21826" data-xf-init="member-tooltip"><span class="username--style7 username--staff" itemprop="name">nyxnico</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Senior Mod</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Mod+</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/nissay_.3199/" class="avatar avatar--s" data-user-id="3199" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/3/3199.jpg?1728418954" srcset="/forum/data/avatars/m/3/3199.jpg?1728418954 2x" alt="nissay_" class="avatar-u3199-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/nissay_.3199/" class="username " dir="auto" data-user-id="3199" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">nissay_</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/btwsononizar.7354/" class="avatar avatar--s" data-user-id="7354" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/7/7354.jpg?1738702434" srcset="/forum/data/avatars/m/7/7354.jpg?1738702434 2x" alt="btwsonoNizar" class="avatar-u7354-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/btwsononizar.7354/" class="username " dir="auto" data-user-id="7354" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">btwsonoNizar</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/_squaletto1mc_.12886/" class="avatar avatar--s" data-user-id="12886" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/12/12886.jpg?1746638445" srcset="/forum/data/avatars/m/12/12886.jpg?1746638445 2x" alt="_SQUALETTO1MC_" class="avatar-u12886-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/_squaletto1mc_.12886/" class="username " dir="auto" data-user-id="12886" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">_SQUALETTO1MC_</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/roboddino.14400/" class="avatar avatar--s" data-user-id="14400" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14400.jpg?1741975501" srcset="/forum/data/avatars/m/14/14400.jpg?1741975501 2x" alt="roboddino" class="avatar-u14400-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/roboddino.14400/" class="username " dir="auto" data-user-id="14400" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">roboddino</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/stvydizko.14983/" class="avatar avatar--s" data-user-id="14983" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14983.jpg?1730135669" srcset="/forum/data/avatars/m/14/14983.jpg?1730135669 2x" alt="stvydizko" class="avatar-u14983-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/stvydizko.14983/" class="username " dir="auto" data-user-id="14983" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">stvydizko</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/applicazione.21472/" class="avatar avatar--s" data-user-id="21472" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/21/21472.jpg?1737234367" srcset="/forum/data/avatars/m/21/21472.jpg?1737234367 2x" alt="Applicazione" class="avatar-u21472-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/applicazione.21472/" class="username " dir="auto" data-user-id="21472" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">Applicazione</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/omqr5912.23548/" class="avatar avatar--s" data-user-id="23548" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/23/23548.jpg?1745680179" srcset="/forum/data/avatars/m/23/23548.jpg?1745680179 2x" alt="Omqr5912" class="avatar-u23548-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/omqr5912.23548/" class="username " dir="auto" data-user-id="23548" data-xf-init="member-tooltip"><span class="username--style13 username--staff" itemprop="name">Omqr5912</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Mod+</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Moderatore</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/statistica.404/" class="avatar avatar--s" data-user-id="404" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/404.jpg?1622292600" srcset="/forum/data/avatars/m/0/404.jpg?1622292600 2x" alt="Statistica" class="avatar-u404-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/statistica.404/" class="username " dir="auto" data-user-id="404" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Statistica</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/baraneyeck.925/" class="avatar avatar--s" data-user-id="925" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/0/925.jpg?1743432168" srcset="/forum/data/avatars/m/0/925.jpg?1743432168 2x" alt="Baraneyeck" class="avatar-u925-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/baraneyeck.925/" class="username " dir="auto" data-user-id="925" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Baraneyeck</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/sakuyaw.6934/" class="avatar avatar--s" data-user-id="6934" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/6/6934.jpg?1745533299" srcset="/forum/data/avatars/m/6/6934.jpg?1745533299 2x" alt="Sakuyaw" class="avatar-u6934-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/sakuyaw.6934/" class="username " dir="auto" data-user-id="6934" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Sakuyaw</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/simone096.10302/" class="avatar avatar--s" data-user-id="10302" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/10/10302.jpg?1746534603" srcset="/forum/data/avatars/m/10/10302.jpg?1746534603 2x" alt="simone096" class="avatar-u10302-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/simone096.10302/" class="username " dir="auto" data-user-id="10302" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">simone096</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/darkfire050.11732/" class="avatar avatar--s" data-user-id="11732" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/11/11732.jpg?1731868589" srcset="/forum/data/avatars/m/11/11732.jpg?1731868589 2x" alt="DarkFire050" class="avatar-u11732-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/darkfire050.11732/" class="username " dir="auto" data-user-id="11732" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">DarkFire050</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/andryego.13416/" class="avatar avatar--s" data-user-id="13416" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/13/13416.jpg?1746205926" srcset="/forum/data/avatars/m/13/13416.jpg?1746205926 2x" alt="Andryego" class="avatar-u13416-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/andryego.13416/" class="username " dir="auto" data-user-id="13416" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Andryego</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/ciranto_hd.14695/" class="avatar avatar--s" data-user-id="14695" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14695.jpg?1738864086" srcset="/forum/data/avatars/m/14/14695.jpg?1738864086 2x" alt="Ciranto_HD" class="avatar-u14695-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/ciranto_hd.14695/" class="username " dir="auto" data-user-id="14695" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Ciranto_HD</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/piagnistei.21490/" class="avatar avatar--s" data-user-id="21490" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/21/21490.jpg?1711376481" srcset="/forum/data/avatars/m/21/21490.jpg?1711376481 2x" alt="piagnistei" class="avatar-u21490-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/piagnistei.21490/" class="username " dir="auto" data-user-id="21490" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">piagnistei</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/callmeden_.22146/" class="avatar avatar--s" data-user-id="22146" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/22/22146.jpg?1741872182" srcset="/forum/data/avatars/m/22/22146.jpg?1741872182 2x" alt="CallMeDen_" class="avatar-u22146-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/callmeden_.22146/" class="username " dir="auto" data-user-id="22146" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">CallMeDen_</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/veg1to.22641/" class="avatar avatar--s" data-user-id="22641" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/22/22641.jpg?1738689274" srcset="/forum/data/avatars/m/22/22641.jpg?1738689274 2x" alt="Veg1to" class="avatar-u22641-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/veg1to.22641/" class="username " dir="auto" data-user-id="22641" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Veg1to</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/znyzar.23392/" class="avatar avatar--s" data-user-id="23392" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/23/23392.jpg?1738855676" srcset="/forum/data/avatars/m/23/23392.jpg?1738855676 2x" alt="zNyzar" class="avatar-u23392-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/znyzar.23392/" class="username " dir="auto" data-user-id="23392" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">zNyzar</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/naftelz.25939/" class="avatar avatar--s" data-user-id="25939" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/25/25939.jpg?1737320491" srcset="/forum/data/avatars/m/25/25939.jpg?1737320491 2x" alt="Naftelz" class="avatar-u25939-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/naftelz.25939/" class="username " dir="auto" data-user-id="25939" data-xf-init="member-tooltip"><span class="username--style4 username--staff" itemprop="name">Naftelz</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Moderatore</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Helper</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/_notsimp.3610/" class="avatar avatar--s" data-user-id="3610" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/3/3610.jpg?1696774622" srcset="/forum/data/avatars/m/3/3610.jpg?1696774622 2x" alt="_NotSimp" class="avatar-u3610-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/_notsimp.3610/" class="username " dir="auto" data-user-id="3610" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">_NotSimp</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/giovannifnaf.5155/" class="avatar avatar--s" data-user-id="5155" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/5/5155.jpg?1708893263" srcset="/forum/data/avatars/m/5/5155.jpg?1708893263 2x" alt="GiovanniFNAF" class="avatar-u5155-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/giovannifnaf.5155/" class="username " dir="auto" data-user-id="5155" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">GiovanniFNAF</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/nicehackscris.14641/" class="avatar avatar--s" data-user-id="14641" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14641.jpg?1741988924" srcset="/forum/data/avatars/m/14/14641.jpg?1741988924 2x" alt="NiceHacksCris" class="avatar-u14641-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/nicehackscris.14641/" class="username " dir="auto" data-user-id="14641" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">NiceHacksCris</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/7danyy_.17495/" class="avatar avatar--s" data-user-id="17495" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/17/17495.jpg?1737502142" srcset="/forum/data/avatars/m/17/17495.jpg?1737502142 2x" alt="7danyy_" class="avatar-u17495-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/7danyy_.17495/" class="username " dir="auto" data-user-id="17495" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">7danyy_</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/_4s.27210/" class="avatar avatar--s" data-user-id="27210" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/27/27210.jpg?1745782543" srcset="/forum/data/avatars/m/27/27210.jpg?1745782543 2x" alt="_4s" class="avatar-u27210-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/_4s.27210/" class="username " dir="auto" data-user-id="27210" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">_4s</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/dx4blo.27211/" class="avatar avatar--s" data-user-id="27211" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/27/27211.jpg?1745785154" srcset="/forum/data/avatars/m/27/27211.jpg?1745785154 2x" alt="Dx4blo" class="avatar-u27211-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/dx4blo.27211/" class="username " dir="auto" data-user-id="27211" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">Dx4blo</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/killdraven67.27212/" class="avatar avatar--s avatar--default avatar--default--dynamic" data-user-id="27212" data-xf-init="member-tooltip" style="background-color: #669933; color: #0d1306">
+                                                            <span class="avatar-u27212-s" role="img" aria-label="KIlldraven67">K</span>
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/killdraven67.27212/" class="username " dir="auto" data-user-id="27212" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">KIlldraven67</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/override.27213/" class="avatar avatar--s" data-user-id="27213" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/27/27213.jpg?1745782739" srcset="/forum/data/avatars/m/27/27213.jpg?1745782739 2x" alt="Override" class="avatar-u27213-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/override.27213/" class="username " dir="auto" data-user-id="27213" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">Override</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/1sorah.27214/" class="avatar avatar--s" data-user-id="27214" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/27/27214.jpg?1745785717" srcset="/forum/data/avatars/m/27/27214.jpg?1745785717 2x" alt="1Sorah" class="avatar-u27214-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/1sorah.27214/" class="username " dir="auto" data-user-id="27214" data-xf-init="member-tooltip"><span class="username--style5 username--staff" itemprop="name">1Sorah</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Helper</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="ddStaffPage ddCompact  ">
+                                        <div class="block">
+                                            <h3 class="block-header">Developer</h3>
+                                            <div class="ddStaffLoop ddFlex block-body">
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/davidetw.12176/" class="avatar avatar--s" data-user-id="12176" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/12/12176.jpg?1659466734" srcset="/forum/data/avatars/m/12/12176.jpg?1659466734 2x" alt="DavideTW" class="avatar-u12176-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/davidetw.12176/" class="username " dir="auto" data-user-id="12176" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">DavideTW</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/abstractabuser.14278/" class="avatar avatar--s" data-user-id="14278" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14278.jpg?1727207973" srcset="/forum/data/avatars/m/14/14278.jpg?1727207973 2x" alt="abstractabuser" class="avatar-u14278-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/abstractabuser.14278/" class="username " dir="auto" data-user-id="14278" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">abstractabuser</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/lafa.14300/" class="avatar avatar--s" data-user-id="14300" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/14/14300.jpg?1672921643" srcset="/forum/data/avatars/m/14/14300.jpg?1672921643 2x" alt="Lafa" class="avatar-u14300-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/lafa.14300/" class="username " dir="auto" data-user-id="14300" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">Lafa</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/wector11211.15637/" class="avatar avatar--s" data-user-id="15637" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/15/15637.jpg?1678781004" srcset="/forum/data/avatars/m/15/15637.jpg?1678781004 2x" alt="Wector11211" class="avatar-u15637-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/wector11211.15637/" class="username " dir="auto" data-user-id="15637" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">Wector11211</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/will0mane.17022/" class="avatar avatar--s" data-user-id="17022" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/17/17022.jpg?1697053254" srcset="/forum/data/avatars/m/17/17022.jpg?1697053254 2x" alt="Will0mane" class="avatar-u17022-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/will0mane.17022/" class="username " dir="auto" data-user-id="17022" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">Will0mane</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                                <div class="ddStaff">
+                                                    <div class="ddAvatar">
+                                                        <a href="/forum/index.php?members/zs0bye.24681/" class="avatar avatar--s" data-user-id="24681" data-xf-init="member-tooltip">
+                                                            <img src="/forum/data/avatars/s/24/24681.jpg?1722856993" srcset="/forum/data/avatars/m/24/24681.jpg?1722856993 2x" alt="zS0bye" class="avatar-u24681-s" width="48" height="48" loading="lazy" itemprop="image" />
+                                                        </a>
+                                                    </div>
+                                                    <div class="ddText">
+                                                        <div class="ddUsername">
+                                                            <a href="/forum/index.php?members/zs0bye.24681/" class="username " dir="auto" data-user-id="24681" data-xf-init="member-tooltip"><span class="username--style10 username--staff" itemprop="name">zS0bye</span></a>
+                                                        </div>
+                                                        <div class="ddTitle">
+                                                            <span>Developer</span>
+                                                        </div>
+                                                    </div>
+                                                </div>
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="u-bottomFixer js-bottomFixTarget">
+
+        </div>
+
+
+        <div class="u-scrollButtons js-scrollButtons" data-trigger-type="up">
+            <a href="#top" class="button--scroll button" data-xf-click="scroll-to"><span class="button-text"><i class="fa fa-arrow-up"></i>
+                </span></a>
+
+        </div>
+
+
+    <!-- BOTTOM -->
+    <div class="bottom">
+        <div class="center">
+            <div class="inner">
+                <div class="c">
+                    <div class="title">Chi Siamo</div>
+                    <div class="text">
+                        SpermaCraft nasce nel 2025, dando agli
+                        amanti di Minecraft la possibilità di divertirsi in un nuovo ecosistema che andasse
+                        oltre le quattro mura di casa. Adesso SpermaCraft è il server più giocato in Italia e tra i
+                        più amati per coloro a cui piace della sana competizione.
+                    </div>
+                </div>
+                <div class="c cc">
+                    <div class="title">Link Utili</div>
+                    <div class="links" id="links">
+                        <li>
+                            <a class="utils" href="https://ez.anozon.it">Store</a>
+                        </li>
+                        <li>
+                            <a class="utils" href="https://discord.gg/gWDVDuJfmN">Discord</a>
+                        </li>
+                        <li>
+                            <a class="utils f" href="https://t.me/CoralMC">Telegram</a>
+                        </li>
+                    </div>
+                </div>
+                <div class="c">
+                    <div class="title">Spermaci</div>
+                    <div class="text">
+                        Regalati un'emozione unica spermando il tuo server preferito!
+                        <a class="btn" href="https://ez.anozon.it/">Store</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <script src="./src/js/index.js"></script>
+
+    <!-- MC -->
+    <script src="https://mcapi.us/scripts/minecraft.min.js"></script>
+
+    <!-- Particles -->
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-snow@1.22.2/tsparticles.preset.snow.bundle.min.js"
+        integrity="sha256-fwbCGHOcQim0BwMuHNgSYNT2mIEKeYQ+fcuAB6aARrc=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/tsparticles-preset-stars@1.22.2/tsparticles.preset.stars.bundle.min.js"
+        integrity="sha256-7dK7v5ByAUb4+FFJDDFxprNOM5UywgKdcVlMgvZD3mw=" crossorigin="anonymous"></script>
+
+    <script>
+        // MINECRAFT
+        MinecraftAPI.getServerStatus('mc.anozon.it', {}, (error, status) => {
+            if (error) return document.getElementById('mc-users').innerHTML = 'Caricamento in corso...';
+
+            document.getElementById('mc-users').innerHTML = status.players.now + " Giocatori Online"
+        });
+    </script>
+
+    <script>
+        // DISCORD
+        const discord = "1036366855121670144";
+        fetch(`https://discordapp.com/api/guilds/${discord}/widget.json`)
+            .then(result => result.json().then(data =>
+                document.getElementById("ds-users").innerHTML = data.presence_count + " Utenti Online"
+            ));
+    </script>
+
+    <script>
+        // TS Particles
+        tsParticles.load("tsparticles", {
+            preset: "stars"
+        });
+    </script>
+</body>
+
+</html>
